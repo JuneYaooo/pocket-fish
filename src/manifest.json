@@ -1,0 +1,1 @@
+{"name":"口袋鱼","appid":"","description":"把每一次上岸的惊喜，收进自己的鱼册。","versionName":"0.1.0","versionCode":"10","transformPx":false,"vueVersion":"3","h5":{"title":"口袋鱼 · 我的随身鱼册","router":{"mode":"hash"}},"mp-weixin":{"appid":"","usingComponents":true,"setting":{"urlCheck":true},"lazyCodeLoading":"requiredComponents"},"uniStatistics":{"enable":false}}
