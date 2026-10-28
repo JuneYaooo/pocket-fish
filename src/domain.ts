@@ -14,12 +14,12 @@ export const species: Species[] = [
 export const unknownSpecies: Species = { id: 'unknown', name: '待确认鱼种', latin: '待确认', index: -1, color: '#9b968e', description: '先留住这次鱼获，之后可以补充鱼种。' }
 export const getSpecies = (id: FishId) => species.find(s => s.id === id) || unknownSpecies
 export const demoRecords: CatchRecord[] = [
-  { id:'demo-1', speciesId:'crucian', date:'2026-09-12', createdAt:1, photo:'', weight:0.32, length:22, method:'台钓', note:'秋天的第一尾，小小的也很开心。', city:'' },
-  { id:'demo-2', speciesId:'carp', date:'2026-09-26', createdAt:2, photo:'', weight:1.6, length:43, method:'台钓', note:'守了一下午，终于等到你。', city:'' },
-  { id:'demo-3', speciesId:'mandarin', date:'2026-10-11', createdAt:3, photo:'', weight:0.86, length:32, method:'路亚', note:'第一次解锁鳜鱼，斑纹真漂亮。', city:'' },
-  { id:'demo-4', speciesId:'crucian', date:'2026-10-18', createdAt:4, photo:'', weight:0.46, length:26, method:'台钓', note:'风停的时候，浮漂终于动了。', city:'' },
-  { id:'demo-5', speciesId:'carp', date:'2026-10-18', createdAt:5, photo:'', weight:1.3, length:39, method:'台钓', note:'今天的第二份惊喜。', city:'' },
-  { id:'demo-6', speciesId:'mandarin', date:'2026-10-25', createdAt:6, photo:'', weight:1.28, length:38, method:'路亚', note:'换了三个标点，终于等到这一口。', city:'' },
+  { id:'demo-1', speciesId:'crucian', date:'2026-09-12', createdAt:1, photo:'/static/cases/crucian-net.jpg', time:'06:20', weight:0.32, length:22, method:'台钓', note:'秋天的第一尾，小小的也很开心。', city:'' },
+  { id:'demo-2', speciesId:'carp', date:'2026-09-26', createdAt:2, photo:'/static/cases/carp-river.jpg', time:'16:45', weight:1.6, length:43, method:'台钓', note:'守了一下午，终于等到你。', city:'' },
+  { id:'demo-3', speciesId:'mandarin', date:'2026-10-11', createdAt:3, photo:'/static/cases/mandarin-net.jpg', time:'08:10', weight:0.86, length:32, method:'路亚', note:'第一次解锁鳜鱼，斑纹真漂亮。', city:'' },
+  { id:'demo-4', speciesId:'crucian', date:'2026-10-18', createdAt:4, photo:'/static/cases/crucian-hands.jpg', time:'07:35', weight:0.46, length:26, method:'台钓', note:'风停的时候，浮漂终于动了。', city:'' },
+  { id:'demo-5', speciesId:'carp', date:'2026-10-18', createdAt:5, photo:'/static/cases/carp-mat.jpg', time:'08:25', weight:1.3, length:39, method:'台钓', note:'今天的第二份惊喜。', city:'' },
+  { id:'demo-6', speciesId:'mandarin', date:'2026-10-25', createdAt:6, photo:'/static/cases/mandarin-bank.jpg', time:'06:50', weight:1.28, length:38, method:'路亚', note:'换了三个标点，终于等到这一口。', city:'' },
 ]
 export const ordered = (records: CatchRecord[]) => [...records].sort((a,b) => a.date.localeCompare(b.date) || a.createdAt-b.createdAt || a.id.localeCompare(b.id))
 export function achievements(record: CatchRecord, records: CatchRecord[]) {

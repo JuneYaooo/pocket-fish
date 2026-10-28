@@ -1,0 +1,40 @@
+# 写实鱼获案例素材
+
+这 6 张图使用内置 image_gen 生成，模拟钓友用手机记录刚上岸鱼获的场景。仅用于示例鱼册，不代表真实用户、实测尺寸或物种鉴定结果。界面与分享图保留 AI 示例标识。
+
+运行素材位于 `src/static/cases/`，采用 960 × 640 JPEG。每张图对应一条示例记录，照片在鱼册、出钓手记、详情与分享卡中保持一致。
+
+| 示例记录 | 场景 | 图片 |
+| --- | --- | --- |
+| demo-1 | 清晨抄网中的鲫鱼 | [crucian-net.jpg](../src/static/cases/crucian-net.jpg) |
+| demo-2 | 水库岸边手持鲤鱼 | [carp-river.jpg](../src/static/cases/carp-river.jpg) |
+| demo-3 | 石岸抄网中的鳜鱼 | [mandarin-net.jpg](../src/static/cases/mandarin-net.jpg) |
+| demo-4 | 手托鲫鱼的近景 | [crucian-hands.jpg](../src/static/cases/crucian-hands.jpg) |
+| demo-5 | 护鱼垫上的鲤鱼 | [carp-mat.jpg](../src/static/cases/carp-mat.jpg) |
+| demo-6 | 刚上岸的鳜鱼 | [mandarin-bank.jpg](../src/static/cases/mandarin-bank.jpg) |
+
+## 生成提示词
+
+### 清晨抄网中的鲫鱼
+
+Use case: photorealistic-natural. Asset type: realistic fishing catch photo for the sample album of the Chinese mini app 口袋鱼获. Generate a single landscape 1536 x 1024 photographic image, not a collage. Natural documentary smartphone/outdoor photography, believable fish anatomy and scale, fine wet scales and subtle water droplets, authentic Chinese freshwater fishing environment, restrained natural colors, no dramatic cinematic effects. Keep the entire fish visible in a generous central safe area; no cropped tail or head, no forced perspective enlargement. No text, watermark, logos, diagrams, illustration, 3D render, blood, or injuries. A small silver crucian carp (Carassius auratus), about 22 cm, deep oval body with soft olive silver scales, no whiskers/barbels, resting horizontally in a wet fine black rubber landing net just above calm freshwater. Close overhead three-quarter view, net rim gently framing the fish; reed reflections and cool early morning water softly blurred behind. Fish occupies about 65% of the image width. Genuine handheld camera feeling, muted blue gray water, crisp fish texture.
+
+### 水库岸边手持鲤鱼
+
+Use case: photorealistic-natural. Asset type: realistic fishing catch photo for the sample album of the Chinese mini app 口袋鱼获. Generate a single landscape 1536 x 1024 photographic image, not a collage. Natural documentary smartphone/outdoor photography, believable fish anatomy and scale, fine wet scales and subtle water droplets, authentic Chinese freshwater fishing environment, restrained natural colors, no dramatic cinematic effects. Keep the entire fish visible in a generous central safe area; no cropped tail or head, no forced perspective enlargement. No text, watermark, logos, diagrams, illustration, 3D render, blood, or injuries. A candid waist-up view of an adult East Asian angler beside a Chinese reservoir, wearing a charcoal fishing jacket and an olive cap, quietly smiling and looking down at a healthy common carp supported gently by both wet hands close to the water. The carp is about 43 cm, bronzy golden scales, orange brown fins and small mouth barbels. The fish is the sharp foreground subject, horizontal across the central frame, and occupies about 65% of the image width; face and distant reservoir bank naturally softer but anatomically credible, one angler only, two hands only. Soft autumn late-afternoon sunlight, realistic skin texture and practical unbranded equipment.
+
+### 石岸抄网中的鳜鱼
+
+Use case: photorealistic-natural. Asset type: realistic fishing catch photo for the sample album of the Chinese mini app 口袋鱼获. Generate a single landscape 1536 x 1024 photographic image, not a collage. Natural documentary smartphone/outdoor photography, believable fish anatomy and scale, fine wet scales and subtle water droplets, authentic Chinese freshwater fishing environment, restrained natural colors, no dramatic cinematic effects. Keep the entire fish visible in a generous central safe area; no cropped tail or head, no forced perspective enlargement. No text, watermark, logos, diagrams, illustration, 3D render, blood, or injuries. A freshly caught Chinese mandarin fish (Siniperca chuatsi), about 32 cm, wide predatory mouth, olive golden body with distinctive irregular dark brown patches and fine smaller spotting, prominent spiny dorsal fin, resting horizontally in a dark wet rubber landing net at a quiet rocky riverbank. Close three-quarter overhead documentary photo, full fish shown centrally; a slim unbranded lure rod is only a blurred diagonal near the outer edge, no hook in the fish. Diffuse cloudy-day light, stone gray and muted golden colors, realistic water sheen.
+
+### 手托鲫鱼的近景
+
+Use case: photorealistic-natural. Asset type: realistic fishing catch photo for the sample album of the Chinese mini app 口袋鱼获. Generate a single landscape 1536 x 1024 photographic image, not a collage. Natural documentary smartphone/outdoor photography, believable fish anatomy and scale, fine wet scales and subtle water droplets, authentic Chinese freshwater fishing environment, restrained natural colors, no dramatic cinematic effects. Keep the entire fish visible in a generous central safe area; no cropped tail or head, no forced perspective enlargement. No text, watermark, logos, diagrams, illustration, 3D render, blood, or injuries. A healthy silver crucian carp (Carassius auratus), about 26 cm, clearly deep-bodied with small mouth and NO mouth barbels, gently supported horizontally by two wet hands just above a reed-lined pond. Frame only hands, plain dark sleeves and the full fish, no visible face. Sunlit silver scales with subtle warm olive highlights, realistic fingers and hand grip, softly blurred reeds and water in the background, relaxed late morning outdoor fishing snapshot. Fish fills about two thirds of the image width.
+
+### 护鱼垫上的鲤鱼
+
+Use case: photorealistic-natural. Asset type: realistic fishing catch photo for the sample album of the Chinese mini app 口袋鱼获. Generate a single landscape 1536 x 1024 photographic image, not a collage. Natural documentary smartphone/outdoor photography, believable fish anatomy and scale, fine wet scales and subtle water droplets, authentic Chinese freshwater fishing environment, restrained natural colors, no dramatic cinematic effects. Keep the entire fish visible in a generous central safe area; no cropped tail or head, no forced perspective enlargement. No text, watermark, logos, diagrams, illustration, 3D render, blood, or injuries. A 39 cm common carp with bronze-gold scales, natural orange brown tail and small mouth barbels, resting horizontally on a wet dark olive padded unhooking mat beside a reservoir. A damp black landing net and the end of an unbranded fishing rod visible near the background edge. Slightly overhead close photograph, fish occupies 65% of width with head and tail fully inside the frame. Soft late afternoon overcast light, subtle droplets and believable scales, calm catch-and-release angling scene, no measuring tape or written numerals.
+
+### 刚上岸的鳜鱼
+
+Use case: photorealistic-natural. Asset type: realistic fishing catch photo for the sample album of the Chinese mini app 口袋鱼获. Generate a single landscape 1536 x 1024 photographic image, not a collage. Natural documentary smartphone/outdoor photography, believable fish anatomy and scale, fine wet scales and subtle water droplets, authentic Chinese freshwater fishing environment, restrained natural colors, no dramatic cinematic effects. Keep the entire fish visible in a generous central safe area; no cropped tail or head, no forced perspective enlargement. No text, watermark, logos, diagrams, illustration, 3D render, blood, or injuries. An adult East Asian angler's two hands gently hold a healthy 38 cm Chinese mandarin fish (Siniperca chuatsi) horizontally just above a wet black landing net at a natural rocky reservoir bank. Crop the person at the chest, plain dark charcoal technical jacket and sleeves, no face. Fish is central and large: olive golden irregular dark mottled body, large predatory mouth, broad head, credible spiny dorsal fin, full tail visible. One hand supports the head from beneath and the other supports the belly, no hooks attached. Quiet early morning light, hazy green-gray reservoir background, fine droplets on the fish and net. Realistic outdoor catch portrait with crisp fish details, not an illustration.
